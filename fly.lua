@@ -1,15 +1,5 @@
 
 
---bypass Anti 
-
-local env = getfenv(game.Players.LocalPlayer.Character.AntiExploit).highcheck
-
-
-hookfunction (env, function()
-	warn("baongukia!!")
-	
-end)
-
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
